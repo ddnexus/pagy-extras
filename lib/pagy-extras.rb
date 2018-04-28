@@ -2,7 +2,7 @@
 
 require 'pagy'
 
-module Pagy
+class Pagy
   def self.extras_root; Pathname.new(__FILE__).dirname end
 end
 
