@@ -5,7 +5,7 @@ require 'date'
 
 Gem::Specification.new do |s|
   s.name          = 'pagy-extras'
-  s.version       = '0.1.1'
+  s.version       = '0.1.2'
   s.authors       = ['Domizio Demichelis']
   s.email         = ['dd.nexus@gmail.com']
   s.date          = Date.today.to_s
