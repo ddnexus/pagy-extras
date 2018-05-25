@@ -9,4 +9,4 @@ end
 require 'pagy-extras/bootstrap'
 require 'pagy-extras/compact'
 require 'pagy-extras/responsive'
-
+require 'pagy-extras/array'
