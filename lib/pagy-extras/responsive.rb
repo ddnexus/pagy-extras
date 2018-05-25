@@ -4,6 +4,7 @@ require 'json'
 
 class Pagy
 
+  # default :breakpoints
   VARS[:breakpoints] = { 0 => [1,4,4,1] }
 
   # Helper for building the page_nav with javascript. For example:
@@ -26,7 +27,7 @@ class Pagy
     end
   end
 
-
+  # Add nav helpers for responsive pagination
   module Frontend
 
     # Generic responsive pagination: it returns the html with the series of links to the pages

@@ -1,7 +1,7 @@
 # See the Pagy Extras documentation: https://ddnexus.github.io/pagy/pagy-extras
 
 class Pagy
-
+  # Add nav helpers for compact pagination
   module Frontend
 
     # Generic compact pagination: it returns the html with the series of links to the pages

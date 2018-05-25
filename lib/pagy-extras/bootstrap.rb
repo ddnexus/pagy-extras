@@ -1,6 +1,7 @@
 # See the Pagy Extras documentation: https://ddnexus.github.io/pagy/pagy-extras
 
 class Pagy
+  # Add nav helper for bootstrap pagination
   module Frontend
 
     # Pagination for bootstrap: it returns the html with the series of links to the pages
