@@ -5,7 +5,7 @@ require 'date'
 
 Gem::Specification.new do |s|
   s.name          = 'pagy-extras'
-  s.version       = '0.1.2'
+  s.version       = '0.2.0'
   s.authors       = ['Domizio Demichelis']
   s.email         = ['dd.nexus@gmail.com']
   s.date          = Date.today.to_s
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files -z`.split("\x0").select{|f| f.start_with?('lib', 'pagy-extras.gemspec', 'LICENSE') }
 
 
-  s.add_dependency 'pagy', '~> 0.6.0'
+  s.add_dependency 'pagy', '~> 0.6'
 
   s.add_development_dependency 'bundler',  '~> 1.16'
   s.add_development_dependency 'rake',     '~> 10.0'
