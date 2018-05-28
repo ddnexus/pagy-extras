@@ -1,7 +1,10 @@
 # Pagy Extras
 
-A ruby gem providing few extra features for [Pagy](https://github.com/ddnexus/pagy). This gem is documented [here](https://ddnexus.github.io/pagy/pagy-extras).
+This gem is integrated in [Pagy](https://github.com/ddnexus/pagy) >= 0.8.0 and has been discontinued.
 
-## License
+If your code was using it, remove the gem and convert the code considering the following:
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+- `Pagy.extras_root.join('whatever')` is gone. Now you can use `Pagy.root.join('pagy', 'extras', 'whatever')`
+- The `pagy-extras` gem was loading all the extras. Now you require only those you use right in the initializer. For example `require 'pagy/extras/bootstrap'` _(see the [initializer_example.rb](https://github.com/ddnexus/pagy/blob/master/lib/pagy/extras/initializer_example.rb))_.
+- See the new [Extras Documentation](https://ddnexus.github.io/pagy/extras) for more details
+- See the pagy [CHANGELOG](https://github.com/ddnexus/pagy/blob/master/CHANGELOG.md) for breaking changes

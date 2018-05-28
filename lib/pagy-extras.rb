@@ -1,12 +1,3 @@
-# See the Pagy Extras documentation: https://ddnexus.github.io/pagy/pagy-extras
+# See the Pagy Extras documentation: https://ddnexus.github.io/pagy/extras
 
-require 'pagy'
-
-class Pagy
-  def self.extras_root; Pathname.new(__FILE__).dirname end
-end
-
-require 'pagy-extras/bootstrap'
-require 'pagy-extras/compact'
-require 'pagy-extras/responsive'
-require 'pagy-extras/array'
+raise "the pagy-extras gem has been integrated in pagy and discontinued. Please, read https://github.com/ddnexus/pagy-extras for details."
